@@ -1,0 +1,42 @@
+# Titulo: Template de documento de diseño
+---
+## Overview: Problema a resolver
+Esto es un ejemplo de proyecto para seguir el curso en Platzi.
+
+### Alcance(Scope)
+Como editor me gustaría que el proyecto tenga pruebas unitarias a nivel local.
+
+#### Casos de uso
+Descripción...
+* As a registered user, I'd like to be able to upload a review of a bed.
+* Caso de uso 2
+* ...
+
+#### Out of Scope (casos de uso No Soportados)
+Descripción...
+* As a non registered user, I'd like to be able to upload a review of a bed.
+* Caso de uso 2
+* ...
+---
+## Arquitectura
+
+### Diagramas
+poner diagramas de secuencia, uml, etc
+
+### Modelo de datos
+Poner diseño de entidades, Jsons, tablas, diagramas entidad relación, etc..
+
+---
+## Limitaciones
+Lista de limitaciones conocidas. Puede ser en formato de lista.
+Ej.
+* Api calls that can upload a review, must not exceed a 500ms latency.
+* Api calls that allow reviews to be read, must be under 100ms.
+---
+## Costo
+Descripción/Análisis de costos
+Ejemplo:
+"Considerando N usuarios diarios, M llamadas a X servicio/baseDatos/etc"
+* 1000 llamadas diarias a serverless functions. $XX.XX
+* 1000 read/write units diarias a X Database on-demand. $XX.XX
+Total: $xx.xx (al mes/dia/año)
